@@ -97,7 +97,20 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="FREBD">
 
-
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
 
 <script type="text/javascript" id="hexo.configurations">
   var NexT = window.NexT || {};
